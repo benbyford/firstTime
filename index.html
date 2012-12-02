@@ -4,8 +4,13 @@
 	<script src="firstTime.js" type="text/javascript">
 	</script>
 	<script type="text/javascript">
+		firstTimeDelete();
 		firstTime();
-		
+		if(FTvalue==0){
+			alert("You've not yet been to this site");
+		}else {
+			alert('No. of visits ' + FTvalue);
+		}
 	</script>
 </head>
 <body>
